@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+	
+	<nav>
+		<a id="logoNav">HomeStay</a>
+		<a href="#">Home</a>
+		<a href="#">Sign Up</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	</nav>
+		<section id="formsContainer">
+		
+			<section id="infoBox">
+
+					<p>Become a Host!</p>
+
+			</section>
+		
+		<section id="forms">
+				<form id="SampleForm" action="https://posttestserver.com/post.php" method= "post"  autocomplete="on">
+
+					<fieldset>
+			                     <legend> Sign Up </legend>
+			                        <p>
+			                              <label class="field" for="fname"> Firstname</label>
+			                              <input type="text" id="fname" name="fname" placeholder="Enter your Firstname here"/>
+			                        </p>
+			                        <p>
+			                              <label class="field" for="sname"> Surname</label>
+			                              <input type="text" id="sname" name="sname" placeholder="Enter your Surname here"/>
+			                        </p>
+			                        <p>
+			                              <label class="field" for="age"> Age</label>
+			                              <input type="number" id="age" name="age" placeholder="Enter your Age here" min="0" max="120"/>
+			                        </p>                       
+			                        <p>
+			                              <label class="field" for="tel">Mobile Tel</label>
+			                              <input type="tel" id="tel" name="tel" placeholder="Enter your Mobile Number here" pattern="[0-9]{8}" title="Mobile format starting 08********"/>
+			                        </p>
+			                        <p>
+			                              <label class="field" for="email"> Email</label>
+			                              <input type="email" id="email" name="email" autofocus placeholder="Enter your Email here (required)" required/>
+			                        </p>
+			                        <p>
+			                              <label class="field" for="password"> Password</label>
+			                              <input type="password" id="password" name="password" placeholder="Enter your Password here (required)" required/>
+			                        </p>
+
+			         </fieldset>
+
+			         <fieldset>
+			                     <legend> Payment </legend>
+			                        <p>
+			                              <label class="field" for="creditCardNumber"> Credit Card</label>
+			                              <input type="text" id="creditCardNumber" name="creditCardNumber" placeholder="Enter your Credit Card Number here" pattern="[0-9]{16}" title="16 Digit Number"/>
+			                        </p>                       
+			                        <p>
+			                              <label class="field" for="creditCardName">Name</label>
+			                              <input type="text" id="creditCardName" name="creditCardName" placeholder="Enter the exact name on your Card"/>
+			                        </p>
+			                        <p>
+			                              <label class="field" for="expiryDate"> Expiry Date</label>
+			                              <input type="date" id="expiryDate" name="expiryDate"/>
+			                        </p>
+			        </fieldset>
+
+					<fieldset>
+								<legend> Submit </legend>
+			                        <p id="terms">
+			                        Do you agree to the <a href="http://www.wikipedia.com/">terms and conditions</a>?
+			                        </p>
+			                        <p>
+			                              <label class="field" for="terms">Please tick</label>
+			                              <input type="checkbox" value="Agree" id="terms" title="You must agree to the terms before proceeding" required/>
+			                        </p>
+			                        <p id="submitButton">  
+			                               <input type="submit" value="submit"/>
+			                        </p>
+			        </fieldset> 
+					
+		     </form>
+		 </section>
+	</section>
+
+	<footer>
+		<h2>Contact Us</h2>
+	</footer>
+	
+</body>
+</html>
