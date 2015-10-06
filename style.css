@@ -66,10 +66,29 @@ nav a{
 /* CSS specific to Form.html */
 
 #formsContainer{
-	background-image: url("country.jpg");
+	display:flex;
+	flex-direction: column;
+	background-image:url("country.jpg");
+	background-size:cover;
+    background-position: center; 	
 }
 
- form{
+#infoBox{
+	flex:1;
+	width:100%;
+	align-items:center;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color:white;
+	font-size: 4em;
+}
+
+#forms{
+	flex:1;
+}
+
+form{
     width: 550px;
  	margin: auto;
  }
@@ -89,6 +108,10 @@ label.field{
     color:white;
 }
 
+#terms{
+	color:white;
+}
+
 .field{
     padding: 6px 8px;
 }
@@ -100,15 +123,11 @@ fieldset{
     clear: both;
     padding: 20px;
     margin-bottom: 50px;
-    background-color:rgba(255,139,30,0.5);
+    background-color:rgba(255,139,30,0.7);
 
 }
 
 /*ends forms only CSS */
-
-.fieldset {
-
-}
 
 footer{
 	width: 100%;
@@ -163,9 +182,9 @@ footer a {
 
 /* CSS specific to Form.html */
 
- #forms{
-    width: 650px;
-}
+#formsContainer{
+	display:flex;
+	flex-direction: row;
 
 /*ends forms only CSS */
 
