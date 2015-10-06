@@ -68,9 +68,6 @@ nav a{
 #formsContainer{
 	display:flex;
 	flex-direction: column;
-	background-image:url("country.jpg");
-	background-size:cover;
-    background-position: center; 	
 }
 
 #infoBox{
@@ -81,7 +78,11 @@ nav a{
 	margin-left: auto;
 	text-align: center;
 	color:white;
-	font-size: 4em;
+	font-size: 2em;
+}
+
+#infoBox h2 {
+	font-size: 2em;
 }
 
 #forms{
@@ -185,6 +186,9 @@ footer a {
 #formsContainer{
 	display:flex;
 	flex-direction: row;
+	background-image:url("img/country.jpg");
+	background-size:cover;
+    background-position: center; 	
 
 /*ends forms only CSS */
 

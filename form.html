@@ -20,7 +20,8 @@
 		
 			<section id="infoBox">
 
-					<p>Become a Host!</p>
+					<h2>Become a Host!</h2><br>
+					<p>Join our growing community of over 10'000 hosts</p>
 
 			</section>
 		
@@ -46,18 +47,39 @@
 			                              <input type="tel" id="tel" name="tel" placeholder="Enter your Mobile Number here" pattern="[0-9]{8}" title="Mobile format starting 08********"/>
 			                        </p>
 			                        <p>
-			                              <label class="field" for="email"> Email</label>
+			                              <label class="field" for="email"> Email*</label>
 			                              <input type="email" id="email" name="email" autofocus placeholder="Enter your Email here (required)" required/>
 			                        </p>
 			                        <p>
-			                              <label class="field" for="password"> Password</label>
+			                              <label class="field" for="password"> Password*</label>
 			                              <input type="password" id="password" name="password" placeholder="Enter your Password here (required)" required/>
 			                        </p>
 
 			         </fieldset>
 
 			         <fieldset>
-			                     <legend> Payment </legend>
+			                     <legend> Choose your Home Location </legend>
+			                        <p>
+			                              <label class="field" for="Location">Location</label>
+			                              		<select id="Location" name="Location">
+			                              			<optgroup value="Europe">Europe</optgroup>
+														<option value="Ireland">Ireland</option>
+														<option value="United Kingdom">United Kingdom</option>
+														<option value="France">France</option>
+														<option value="Other Europe">Other Europe</option>
+													</optgroup>
+			                              			<optgroup value="Americas">Americas</optgroup>
+														<option value="USA">USA</option>
+														<option value="Mexico">Mexico</option>
+														<option value="Other Americas">Other Americas</option>
+													</optgroup>
+													<option value="Other Countries">Other Countries</option>
+												</select>
+			                        </p>			                     
+			        </fieldset>
+
+			         <fieldset>
+			                     <legend> Payment Information </legend>
 			                        <p>
 			                              <label class="field" for="creditCardNumber"> Credit Card</label>
 			                              <input type="text" id="creditCardNumber" name="creditCardNumber" placeholder="Enter your Credit Card Number here" pattern="[0-9]{16}" title="16 Digit Number"/>
@@ -78,7 +100,7 @@
 			                        Do you agree to the <a href="http://www.wikipedia.com/">terms and conditions</a>?
 			                        </p>
 			                        <p>
-			                              <label class="field" for="terms">Please tick</label>
+			                              <label class="field" for="terms">Please tick*</label>
 			                              <input type="checkbox" value="Agree" id="terms" title="You must agree to the terms before proceeding" required/>
 			                        </p>
 			                        <p id="submitButton">  
