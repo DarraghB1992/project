@@ -59,6 +59,53 @@ nav a{
 
 }
 
+/* CSS specific to Form.html */
+
+#formsContainer{
+	background-image: url("country.jpg");
+}
+
+ form{
+    width: 550px;
+ 	margin: auto;
+ }
+
+legend{
+	font-size: 30px;
+	background-color: #FF8B1E;
+    padding: 4px 15px;
+    color:white;
+}
+            
+label.field{
+    display: block;
+    text-align: right;
+    width: 100px;
+    float: left;
+    color:white;
+}
+
+.field{
+    padding: 6px 8px;
+}
+
+fieldset{
+    width: 550px;
+    border: 1px solid :rgba(255,139,30);
+    border-radius: 20px;
+    clear: both;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color:rgba(255,139,30,0.5);
+
+}
+
+/*ends forms only CSS */
+
+.fieldset {
+
+}
+
 footer{
 	width: 100%;
 	background-color: #FF8B1E;
@@ -109,4 +156,13 @@ footer a {
 	.topbox{
 		flex:1;
 	}
+
+/* CSS specific to Form.html */
+
+ #forms{
+    width: 650px;
+}
+
+/*ends forms only CSS */
+
 }
