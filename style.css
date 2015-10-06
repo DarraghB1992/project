@@ -100,6 +100,8 @@ nav a{
 #formsContainer{
 	display:flex;
 	flex-direction: column;
+	background-image: url(img/country.jpg);
+	background-size: cover;
 }
 
 #infoBox{
@@ -221,14 +223,14 @@ footer a {
 
 	#bottomcontainer{
 		flex-flow: row wrap;
+		margin-top: 20px;
 		
 
 	}
 
-<<<<<<< HEAD
 	.bottombox{
-		margin-top: 20px;
-		margin-right: 20px;
+		margin-right: 50px;
+		margin-bottom: none;
 
 	}
 
@@ -236,7 +238,7 @@ footer a {
 
 }
 
-=======
+
 /* CSS specific to Form.html */
 
 #formsContainer{
