@@ -7,6 +7,7 @@
 body{
 
 	font-family: Dosis, sans-serif;
+	color: black;
 
 }
 
@@ -53,9 +54,12 @@ nav a{
 	align-items:center;
 	margin-right: auto;
 	margin-left: auto;
+	
 }
 
 .bottombox{
+	flex:1;
+	background-color: #FF8B1E;
 
 }
 
