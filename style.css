@@ -86,10 +86,16 @@ footer a {
 	}
 
 	#topcontainer{
+		display: flex;
 		flex-flow:row wrap;
 		background-image: url(island.jpg);
-		background-size:contain;
-		height:300px;
+		background-size:cover;
+		background-repeat:no-repeat;
+		background-position: center;
+		width: 80%;
+		height: 500px;
+
+		
 
 		
 
